@@ -67,8 +67,11 @@ To monitor or audit a file follow these simple steps.
    ```
    **Note**
    -path_to_file meaning the folder/file location you want to monitor
+   
    -permissions corresponds to the permissions that you want to use
+   
    -key_name can be anything that you want to use to search for (Custom name)
+   
    For more details check the More Details section
    
 4. Check whether the custom audit rule is added
