@@ -112,7 +112,7 @@ To monitor or audit a file follow these simple steps.
 
 I found a beautiful resource online which speaks in detail about the audit rules
 
- please refer to the [Documentation](https://www.digitalocean.com/community/tutorials/how-to-write-custom-system-audit-rules-on-centos-7)
+ please refer to that [beautiful resource](https://www.digitalocean.com/community/tutorials/how-to-write-custom-system-audit-rules-on-centos-7)
 
 
 
