@@ -65,7 +65,9 @@ To monitor or audit a file follow these simple steps.
    ```sh
    sudo auditctl -w path_to_file -p permissions -k key_name
    ```
+   
    **Note**
+   
    -path_to_file meaning the folder/file location you want to monitor
    
    -permissions corresponds to the permissions that you want to use
