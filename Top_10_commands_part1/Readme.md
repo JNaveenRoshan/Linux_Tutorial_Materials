@@ -1,42 +1,45 @@
-### Prerequisites
+### TOP 10 COMMANDS PART 1
 
 1. We need a 
   ```sh
-  sudo apt install wget
+  pwd
   ```
 2. We need a 
   ```sh
-  sudo apt install wget
+  cd <location>
   ```
 3. We need a
   ```sh
-  sudo apt install wget
+  whoami
   ```
 4. We need a
   ```sh
-  sudo apt install wget
+  cat <filename>
   ```
 5. We need a
   ```sh
-  sudo apt install wget
+  cat <filename> | grep -i <keyword>
   ```
 6. We need a 
   ```sh
-  sudo apt install wget
+  truncate -s 0 <filename>
   ```
 7. We need a 
   ```sh
-  sudo apt install wget
+  uname -p
+  uname -a
+  uname -n
   ```
 8. We need a 
   ```sh
-  sudo apt install wget
+  <any command> --help
+  uname --help
   ```
 9. We need a 
   ```sh
-  sudo apt install wget
+  ping google.com
   ```
 10. We need a
   ```sh
-  sudo apt install wget
+  ctrl + C
   ```
