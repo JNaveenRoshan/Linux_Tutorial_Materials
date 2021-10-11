@@ -45,7 +45,6 @@ To monitor or audit a file follow these simple steps.
 ### Prerequisites
 
  If you are using any versions of the Linux **Debian**.You may not have the folder audit under the location /var/log so you need to install the auditd package,However if you are using centOS please do ignore the below step
-* npm
   ```sh
   sudo apt install auditd
   ```
