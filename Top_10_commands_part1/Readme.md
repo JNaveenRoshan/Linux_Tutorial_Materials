@@ -1,4 +1,16 @@
-### TOP 10 USEFUL COMMANDS IN LINUX PART 1
+<p align="center">
+  <h3 align="center">TOP 10 USEFUL COMMANDS IN LINUX PART 1</h3>
+
+  <p align="center">
+    <br />
+    <br />
+    <br />
+    <a href="">View Tutorial</a>
+  </p>
+</p>
+
+
+
 
 1. **PWD** - pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root 
   ```sh
