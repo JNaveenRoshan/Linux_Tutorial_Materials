@@ -12,6 +12,9 @@
 
 
 
+
+
+
 1. **PWD** - pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root 
   ```sh
   pwd
