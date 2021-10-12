@@ -4,23 +4,23 @@
   ```sh
   pwd
   ```
-2. We need a 
+2. **CD** - cd command in linux known as change directory command. It is used to change current working directory.To move inside a subdirectory in linux
   ```sh
   cd <location>
   ```
-3. We need a
+3. **WHOMAI** - It displays the username of the current user when this command is invoked.It is similar as running the id command with the options -un
   ```sh
   whoami
   ```
-4. We need a
+4. **CAT** - Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output
   ```sh
   cat <filename>
   ```
-5. We need a
+5. **GREP** - grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
   ```sh
   cat <filename> | grep -i <keyword>
   ```
-6. We need a 
+6. **TRUNCATE** - 
   ```sh
   truncate -s 0 <filename>
   ```
