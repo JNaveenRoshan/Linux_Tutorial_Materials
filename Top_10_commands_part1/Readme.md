@@ -53,7 +53,7 @@
   ```sh
   ping google.com
   ```
-10. **Ctrl + C** - Stops and Displays the detail about data sent and transmitted
+10. **Ctrl + C** - This works only whilst using ping.It displays the detail about data sent and transmitted
   ```sh
   ctrl + C
   ```
