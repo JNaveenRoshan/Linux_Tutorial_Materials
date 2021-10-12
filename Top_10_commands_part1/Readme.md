@@ -20,26 +20,26 @@
   ```sh
   cat <filename> | grep -i <keyword>
   ```
-6. **TRUNCATE** - 
+6. **TRUNCATE** - The Linux truncate command is often used to shrink or extend the size of each FILE to the specified size.
   ```sh
   truncate -s 0 <filename>
   ```
-7. We need a 
+7. **UNAME** - uname is a command-line utility that prints basic information about the operating system name and system hardware
   ```sh
   uname -p
   uname -a
   uname -n
   ```
-8. We need a 
+8. **HELP** - help command as told before just displays information about shell built-in commands
   ```sh
   <any command> --help
   uname --help
   ```
-9. We need a 
+9. **PING** - Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol network.
   ```sh
   ping google.com
   ```
-10. We need a
+10. **Ctrl + C** - Stops and Displays the detail about data sent and transmitted
   ```sh
   ctrl + C
   ```
