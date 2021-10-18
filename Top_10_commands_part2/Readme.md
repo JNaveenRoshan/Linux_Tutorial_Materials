@@ -27,34 +27,31 @@
   ```sh
   rmdir <directory_name>
   ```
-4. **CAT** - Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output
+4. **TOUCH** - Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output
   ```sh
-  cat <filename>
+  touch <filename>
   ```
-5. **GREP** - grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
+5. **RM** - grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
   ```sh
-  cat <filename> | grep -i <keyword>
+  rm <filename> | grep -i <keyword>
   ```
-6. **TRUNCATE** - The Linux truncate command is often used to shrink or extend the size of each FILE to the specified size.
+6. **CP** - The Linux truncate command is often used to shrink or extend the size of each FILE to the specified size.
   ```sh
-  truncate -s 0 <filename>
+  cp <filename>
   ```
-7. **UNAME** - uname is a command-line utility that prints basic information about the operating system name and system hardware
+7. **MV** - uname is a command-line utility that prints basic information about the operating system name and system hardware
   ```sh
-  uname -p
-  uname -a
-  uname -n
+  mv
   ```
-8. **HELP** - help command as told before just displays information about shell built-in commands
+8. **LOCATE** - help command as told before just displays information about shell built-in commands
   ```sh
-  <any command> --help
-  uname --help
+  locate 
   ```
-9. **PING** - Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol network.
+9. **ECHO** - Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol network.
   ```sh
-  ping google.com
+  echo
   ```
-10. **Ctrl + C** - This works only whilst using ping.It displays the detail about data sent and transmitted
+10. **DF** - This works only whilst using ping.It displays the detail about data sent and transmitted
   ```sh
-  ctrl + C
+  df -m
   ```
