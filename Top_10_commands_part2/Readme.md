@@ -14,9 +14,10 @@
 <br />
 <br />
 
-1. **PWD** - pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root 
+1. **LS** - pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root 
   ```sh
-  pwd
+  ls
+  ls -a
   ```
 2. **CD** - cd command in linux known as change directory command. It is used to change current working directory.To move inside a subdirectory in linux
   ```sh
