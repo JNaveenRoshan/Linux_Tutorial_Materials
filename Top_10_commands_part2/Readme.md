@@ -19,13 +19,13 @@
   ls
   ls -a
   ```
-2. **CD** - cd command in linux known as change directory command. It is used to change current working directory.To move inside a subdirectory in linux
+2. **MKDIR** - cd command in linux known as change directory command. It is used to change current working directory.To move inside a subdirectory in linux
   ```sh
-  cd <location>
+  mkdir <directory_name>
   ```
-3. **WHOMAI** - It displays the username of the current user when this command is invoked.It is similar as running the id command with the options -un
+3. **RMDIR** - It displays the username of the current user when this command is invoked.It is similar as running the id command with the options -un
   ```sh
-  whoami
+  rmdir <directory_name>
   ```
 4. **CAT** - Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output
   ```sh
