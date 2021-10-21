@@ -39,19 +39,19 @@
   ```sh
   cp <filename>
   ```
-7. **MV** - 
+7. **MV** - Use the mv command to move files through the command line. We can also use the mv command to rename a file.
   ```sh
   mv
   ```
-8. **LOCATE** - 
+8. **LOCATE** - The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file.
   ```sh
   locate 
   ```
-9. **ECHO** - 
+9. **ECHO** - The "echo" command helps us move some data, usually text into a file.
   ```sh
   echo
   ```
-10. **DF** - 
+10. **DF** - Use the df command to see the available disk space in each of the partitions in your system. You can just type in df in the command line and you can see each mounted partition 
   ```sh
   df -m
   ```
