@@ -43,9 +43,9 @@
   ```sh
   mv
   ```
-8. **LOCATE** - The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file.
+8. **DU** - If you want to know the disk usage for a particular folder or file in Linux, you can type in the command df and the name of the folder or file
   ```sh
-  locate 
+  du <folder name> 
   ```
 9. **ECHO** - The "echo" command helps us move some data, usually text into a file.
   ```sh
