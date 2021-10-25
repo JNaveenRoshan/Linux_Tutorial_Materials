@@ -50,7 +50,7 @@
   ```
 9. **ECHO** - The "echo" command helps us move some data, usually text into a file.
   ```sh
-  echo
+  echo <data> >> <filename>
   ```
 10. **DF** - Use the df command to see the available disk space in each of the partitions in your system. You can just type in df in the command line and you can see each mounted partition 
   ```sh
