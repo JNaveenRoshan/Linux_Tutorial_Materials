@@ -41,7 +41,8 @@
   ```
 7. **MV** - Use the mv command to move files through the command line. We can also use the mv command to rename a file.
   ```sh
-  mv
+  mv <filename> <location>
+  mv <old filename> <new filename>
   ```
 8. **DU** - If you want to know the disk usage for a particular folder or file in Linux, you can type in the command df and the name of the folder or file
   ```sh
