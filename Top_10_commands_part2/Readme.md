@@ -5,7 +5,7 @@
     <br />
     <br />
     <br />
-    <a href="">View Tutorial</a>
+    <a href="https://youtu.be/dL3nsGJYKys">View Tutorial</a>
   </p>
 </p>
 
