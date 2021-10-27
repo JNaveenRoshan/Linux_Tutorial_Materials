@@ -14,46 +14,79 @@
 <br />
 <br />
 
-1. **PWD** - pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#More Details">More Details</a></li>
+  </ol>
+</details>
+
+
+<br />
+<br />
+<br />
+
+
+
+<!-- ABOUT THE PROJECT -->
+## User Guide on Installing Splunk in Linux on Cloud
+
+
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get Splunk up and running follow these simple steps.
+
+### Prerequisites
+
+ We need a package called **wget** to get splunk software from the splunk web server into our machine.If you already have this package please do ignore the below step
   ```sh
-  pwd
+  sudo apt install wget
   ```
-2. **CD** - cd command in linux known as change directory command. It is used to change current working directory.To move inside a subdirectory in linux
-  ```sh
-  cd <location>
-  ```
-3. **WHOMAI** - It displays the username of the current user when this command is invoked.It is similar as running the id command with the options -un
-  ```sh
-  whoami
-  ```
-4. **CAT** - Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output
-  ```sh
-  cat <filename>
-  ```
-5. **GREP** - grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
-  ```sh
-  cat <filename> | grep -i <keyword>
-  ```
-6. **TRUNCATE** - The Linux truncate command is often used to shrink or extend the size of each FILE to the specified size.
-  ```sh
-  truncate -s 0 <filename>
-  ```
-7. **UNAME** - uname is a command-line utility that prints basic information about the operating system name and system hardware
-  ```sh
-  uname -p
-  uname -a
-  uname -n
-  ```
-8. **HELP** - help command as told before just displays information about shell built-in commands
-  ```sh
-  <any command> --help
-  uname --help
-  ```
-9. **PING** - Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol network.
-  ```sh
-  ping google.com
-  ```
-10. **Ctrl + C** - This works only whilst using ping.It displays the detail about data sent and transmitted
-  ```sh
-  ctrl + C
-  ```
+
+### Installation
+
+1. We need to get the Splunk software into our machine 
+   ```sh
+   sudo wget -O splunk-8.2.2.1-ae6821b7c64b-Linux-x86_64.tgz 'https://d7wz6hmoaavd0.cloudfront.net/products/splunk/releases/8.2.2.1/linux/splunk-8.2.2.1-ae6821b7c64b-Linux-x86_64.tgz'
+   ```
+2. We want to extract the Splunk under the opt directory
+   ```sh
+   tar xzvf splunk-8.2.2.1-ae6821b7c64b-Linux-x86_64.tgz -C /opt
+   ```
+3. There is splunk startup file under the directory /opt/splunk/bin 
+   ```sh
+   cd /opt/splunk/bin
+   ```
+4. Start the Splunk 
+   ```sh
+   sudo ./splunk start
+   ```
+5. However you will be asked to create a user name and password which you will use to access the Splunk GUI
+
+6. Once everything is done you need to open a browser and type the below code to access the Splunk (However the **localhost** in the below code must be changed to the respective IP when using VMs) 
+   ```sh
+   localhost:8000
+
+<!-- USAGE EXAMPLES -->
+## More Details
+
+Use the below link for the official documentation of Splunk
+
+ please refer to the [Documentation](https://docs.splunk.com/Documentation/Splunk/8.2.2/Installation/Chooseyourplatform)
+
+
+
+
+
