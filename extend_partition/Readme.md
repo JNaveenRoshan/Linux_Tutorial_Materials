@@ -37,7 +37,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## User Guide on Installing Splunk in Linux on Cloud
+## User Guide on Resizing/Extending the disk partition in Linux Machine
 
 
 
@@ -46,7 +46,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get Splunk up and running follow these simple steps.
+We resize/extend the disk partition in order to use all unallocated disk space.
 
 ### Prerequisites
 
