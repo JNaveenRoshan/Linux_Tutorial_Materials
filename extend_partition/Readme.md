@@ -50,9 +50,9 @@ We resize/extend the disk partition in order to use all unallocated disk space.
 
 ### Prerequisites
 
- We need a package called **wget** to get splunk software from the splunk web server into our machine.If you already have this package please do ignore the below step
+ There is no prerequisites for this process.No in-depth knowledge required however to run all the below code please use sudo or run those commands as root user 
   ```sh
-  sudo apt install wget
+  sudo su
   ```
 
 ### Disk Partitioning
