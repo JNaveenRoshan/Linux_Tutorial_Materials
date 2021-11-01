@@ -80,12 +80,21 @@ We resize/extend the disk partition in order to use all unallocated disk space.
 6. Provide the partition record and press enter
 
 7. Type n and press enter to create a new disk partition.Provide the starting and ending sectors.You can choose the default for both of them but check once for validation purposes
-
-8.  
-9. 
    ```sh
-   localhost:8000
+   d
+   ``` 
 
+8. Type p and then press enter to check the disk partition table is created in a way that you want 
+   ```sh
+   d
+   ``` 
+   
+9. If everything looks in a way that you want Type w and then press enter to write the partition table to the disk. 
+   ```sh
+   d
+   ``` 
+   
+   
 <!-- USAGE EXAMPLES -->
 ## More Details
 
