@@ -98,9 +98,9 @@ We resize/extend the disk partition in order to use all unallocated disk space.
 <!-- USAGE EXAMPLES -->
 ## More Details
 
-Use the below link for the official documentation of Splunk
+I Found a Beautiful Resource online which explains a bit more regarding partitioning and in some other ways too
 
- please refer to the [Documentation](https://docs.splunk.com/Documentation/Splunk/8.2.2/Installation/Chooseyourplatform)
+ please refer to the [Beautiful Resource](https://www.ryadel.com/en/resize-extend-disk-partition-unallocated-disk-space-linux-centos-rhel-ubuntu-debian/)
 
 
 
