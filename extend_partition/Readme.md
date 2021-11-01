@@ -57,25 +57,32 @@ We resize/extend the disk partition in order to use all unallocated disk space.
 
 ### Disk Partitioning
 
-1. We need to get the Splunk software into our machine 
+1. We need know the details of the partition table for the current machine to check whether there are unallocated space.If so what are their starting and ending sectors.To view these detials run the below command
    ```sh
-   sudo wget -O splunk-8.2.2.1-ae6821b7c64b-Linux-x86_64.tgz 'https://d7wz6hmoaavd0.cloudfront.net/products/splunk/releases/8.2.2.1/linux/splunk-8.2.2.1-ae6821b7c64b-Linux-x86_64.tgz'
+   cfdisk
    ```
-2. We want to extract the Splunk under the opt directory
+2. Make sure there is a column called free space and make a note of the ending sector of that row.Make a note of the file system name you want to increase or extend.Then exit.
+
+
+3. Type p and press enter to view the partition table again
    ```sh
-   tar xzvf splunk-8.2.2.1-ae6821b7c64b-Linux-x86_64.tgz -C /opt
+   p
    ```
-3. There is splunk startup file under the directory /opt/splunk/bin 
-   ```sh
-   cd /opt/splunk/bin
-   ```
-4. Start the Splunk 
+4. See the number of the partition record that you want to remove
    ```sh
    sudo ./splunk start
    ```
-5. However you will be asked to create a user name and password which you will use to access the Splunk GUI
+5. Type d to delete the partition record and then press enter
+   ```sh
+   d
+   ```   
 
-6. Once everything is done you need to open a browser and type the below code to access the Splunk (However the **localhost** in the below code must be changed to the respective IP when using VMs) 
+6. Provide the partition record and press enter
+
+7. Type n and press enter to create a new disk partition.Provide the starting and ending sectors.You can choose the default for both of them but check once for validation purposes
+
+8.  
+9. 
    ```sh
    localhost:8000
 
