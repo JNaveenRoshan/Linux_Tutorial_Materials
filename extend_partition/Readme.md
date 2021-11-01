@@ -22,7 +22,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Disk Partitioning</a></li>
+        <li><a href="#disk partitioning">Disk Partitioning</a></li>
       </ul>
     </li>
     <li><a href="#More Details">More Details</a></li>
@@ -55,7 +55,7 @@ To get Splunk up and running follow these simple steps.
   sudo apt install wget
   ```
 
-### Installation
+### Disk Partitioning
 
 1. We need to get the Splunk software into our machine 
    ```sh
