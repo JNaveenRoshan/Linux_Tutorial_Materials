@@ -57,3 +57,10 @@
   ```sh
   ctrl + C
   ```
+
+<!-- USAGE EXAMPLES -->
+## More Details
+
+I Found many Beautiful Resource online which explains a bit more about chmod and other commands 
+
+ please refer to the [Beautiful Resource 1](https://www.hostinger.in/tutorials/linux-commands)
