@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">TOP 10 USEFUL COMMANDS IN LINUX PART 1</h3>
+  <h3 align="center">TOP 10 USEFUL COMMANDS IN LINUX PART 3</h3>
 
   <p align="center">
     <br />
