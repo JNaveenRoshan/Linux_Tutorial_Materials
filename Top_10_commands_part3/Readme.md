@@ -30,32 +30,31 @@
   ```sh
   top
   ```
-5. **HISTORY** - grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
+5. **HISTORY** - When you’ve been using Linux for a certain period of time, you’ll quickly notice that you can run hundreds of commands every day. As such, running history command is particularly useful if you want to review the commands you’ve entered before.
   ```sh
-  cat <filename> | grep -i <keyword>
+  history
   ```
-6. **HOSTNAME** - The Linux truncate command is often used to shrink or extend the size of each FILE to the specified size.
+6. **HOSTNAME** - If you want to know the name of your host/network simply type hostname. Adding a -i to the end will display the IP address of your network.
   ```sh
-  truncate -s 0 <filename>
+  hostname
+  hostname -i
   ```
-7. **USERS** - uname is a command-line utility that prints basic information about the operating system name and system hardware
+7. **USERS** - users command in Linux system is used to show the user names of users currently logged in to the current host. It will display who is currently logged in according to FILE. If the FILE is not specified, use /var/run/utmp. /var/log/wtmp as FILE is common
   ```sh
-  uname -p
-  uname -a
-  uname -n
+  users
   ```
-8. **CHMOD** - help command as told before just displays information about shell built-in commands
+8. **CHMOD** - chmod is another Linux command, used to change the read, write, and execute permissions of files and directories.
   ```sh
-  <any command> --help
-  uname --help
+  chmod a=rw <filename.ext> (More Info Check link below)
   ```
-9. **GETFACL** - Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol network.
+9. **GETFACL** - For each file, getfacl displays the file name, owner, the group, and the Access Control List (ACL).
   ```sh
-  ping google.com
+  getfacl
   ```
-10. **YUM INSTALL** - This works only whilst using ping.It displays the detail about data sent and transmitted
+10. **YUM INSTALL** - Install a package in Centos use yum install if in Debian use apt install
   ```sh
-  ctrl + C
+  yum install <package_name>
+  apt install <package_name>
   ```
 
 <!-- USAGE EXAMPLES -->
