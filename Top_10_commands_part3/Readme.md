@@ -20,15 +20,15 @@
   ```
 2. **TAIL** - This one has a similar function to the head command, but instead of showing the first lines, the tail command will display the last ten lines of a text file
   ```sh
-  tail -n filename.ext
+  tail -n 5 <filename.txt>
   ```
-3. **DIFF** - It displays the username of the current user when this command is invoked.It is similar as running the id command with the options -un
+3. **DIFF** - Short for difference, the diff command compares the contents of two files line by line. After analyzing the files, it will output the lines that do not match. 
   ```sh
-  whoami
+  diff file1.ext file2.ext
   ```
-4. **TOP** - Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output
+4. **TOP** - This will display a list of running process and how much CPU each process uses
   ```sh
-  cat <filename>
+  top
   ```
 5. **HISTORY** - grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
   ```sh
