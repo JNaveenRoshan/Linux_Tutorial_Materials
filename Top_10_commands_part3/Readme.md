@@ -45,7 +45,7 @@
   ```
 8. **CHMOD** - chmod is another Linux command, used to change the read, write, and execute permissions of files and directories.
   ```sh
-  chmod a=rw <filename.ext> (More Info Check link below)
+  chmod a=rw <filename.ext> (More Info Check the link below)
   ```
 9. **GETFACL** - For each file, getfacl displays the file name, owner, the group, and the Access Control List (ACL).
   ```sh
