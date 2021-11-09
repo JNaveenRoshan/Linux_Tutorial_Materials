@@ -14,13 +14,13 @@
 <br />
 <br />
 
-1. **HEAD** - pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root 
+1. **HEAD** - The head command is used to view the first lines of any text file. By default, it will show the first ten lines, but you can change this number to your liking by providing the certain number of lines after the n. 
   ```sh
-  pwd
+  head -n 5 <filename.txt> (For first 5 lines)
   ```
-2. **TAIL** - cd command in linux known as change directory command. It is used to change current working directory.To move inside a subdirectory in linux
+2. **TAIL** - This one has a similar function to the head command, but instead of showing the first lines, the tail command will display the last ten lines of a text file
   ```sh
-  cd <location>
+  tail -n filename.ext
   ```
 3. **DIFF** - It displays the username of the current user when this command is invoked.It is similar as running the id command with the options -un
   ```sh
