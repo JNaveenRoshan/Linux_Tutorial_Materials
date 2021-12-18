@@ -37,35 +37,33 @@
   ```sh
   chown <owner_name> <file_name>
   ```
-6. **IFCONFIG** - If you want to know the name of your host/network simply type hostname. Adding a -i to the end will display the IP address of your network.
+6. **IFCONFIG** - ifconfig stands for "interface configuration." It is used to view and change the configuration of the network interfaces on your system.
   ```sh
-  hostname
-  hostname -i
+  ifconfig -a
   ```
-7. **XARGS** - users command in Linux system is used to show the user names of users currently logged in to the current host. It will display who is currently logged in according to FILE. If the FILE is not specified, use /var/run/utmp. /var/log/wtmp as FILE is common
+7. **XARGS** - Xargs is a great command that reads streams of data from standard input, then generates and executes command lines
   ```sh
-  users
+  xargs [options] [command]
   ```
-8. **DPKG** - chmod is another Linux command, used to change the read, write, and execute permissions of files and directories.
+8. **DPKG** - dpkg is the main package management program in Debian and Debian based System. It is used to install, build, remove, and manage packages. Aptitude is the primary front-end to dpkg.
   ```sh
-  chmod a=rw <filename.ext> (More Info Check the link below)
+  dpkg -i <package file in .deb extension>
   ```
-9. **MOUNT** - For each file, getfacl displays the file name, owner, the group, and the Access Control List (ACL).
+9. **MOUNT** - All files in a Linux filesystem are arranged in form of a big tree rooted at ‘/‘.These files can be spread out on various devices based on your partition table, initially your parent directory is mounted(i.e attached) to this tree at ‘/‘, others can be mounted manually using GUI interface(if available) or using mount comman.
   ```sh
-  getfacl
+  mount
   ```
-10. **TTY** - Install a package in Centos use yum install if in Debian use apt install
+10. **TTY** - The tty command of terminal basically prints the file name of the terminal connected to standard input. 
   ```sh
-  yum install <package_name>
-  apt install <package_name>
+  tty
   ```
 
 <!-- USAGE EXAMPLES -->
 ## More Details
 
-I Found many Beautiful Resource online which explains a bit more about chmod and other commands 
+I Found many Beautiful Resource online which explains a bit more about Xargs and mount 
 
- please refer to the [Beautiful Resource 1](https://www.hostinger.in/tutorials/linux-commands)
+ please refer to the [Beautiful Xargs Resource 1](https://www.tecmint.com/xargs-command-examples/)
  
  
-  please refer to the [Chmod Resource](https://www.computerhope.com/unix/uchmod.htm)
+  please refer to the [Mount Resource](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
