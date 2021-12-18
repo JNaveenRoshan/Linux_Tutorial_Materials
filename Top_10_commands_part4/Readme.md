@@ -14,25 +14,28 @@
 <br />
 <br />
 
-1. **PS** - The head command is used to view the first lines of any text file. By default, it will show the first ten lines, but you can change this number to your liking by providing the certain number of lines after the n. 
+1. **PS** - Linux provides us a utility called ps for viewing information related with the processes on a system which stands as abbreviation for “Process Status”. ps command is used to list the currently running processes and their PIDs along with some other information depends on different options. 
   ```sh
-  head -n 5 <filename.txt> (For first 5 lines)
+  ps
   ```
-2. **KILL** - This one has a similar function to the head command, but instead of showing the first lines, the tail command will display the last ten lines of a text file
+2. **KILL** - The kill command sends a signal to specified processes or process groups causing them to act according to the signal
   ```sh
-  tail -n 5 <filename.txt>
+  kill <pid>
   ```
-3. **GZIP** - Short for difference, the diff command compares the contents of two files line by line. After analyzing the files, it will output the lines that do not match. 
+3. **GZIP** - gzip command compresses files. Each single file is compressed into a single file. The compressed file consists of a GNU zip header and deflated data. 
   ```sh
-  diff file1.ext file2.ext
+  gzip <filename>
+  gzip -k <filename>
   ```
-4. **NETSTAT** - This will display a list of running process and how much CPU each process uses
+4. **NETSTAT** - Netstat command displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc.
   ```sh
-  top
+  netstat -a
+  netstat -at
+  netstat -au
   ```
-5. **CHOWN** - When you’ve been using Linux for a certain period of time, you’ll quickly notice that you can run hundreds of commands every day. As such, running history command is particularly useful if you want to review the commands you’ve entered before.
+5. **CHOWN** - chown command is used to change the file Owner or group. Whenever you want to change ownership you can use chown command.
   ```sh
-  history
+  chown <owner_name> <file_name>
   ```
 6. **IFCONFIG** - If you want to know the name of your host/network simply type hostname. Adding a -i to the end will display the IP address of your network.
   ```sh
